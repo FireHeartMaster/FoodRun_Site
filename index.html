@@ -1,0 +1,166 @@
+﻿<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Salsa">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    body, h1, h2, h3, h4, h5, h6 {
+        font-family: "Salsa", sans-serif
+    }
+
+    .bgimg {
+        background-image: url("https://i.imgur.com/hgWVwdC.png");
+        min-height: 100%;
+        background-position: center;
+        background-repeat: repeat background-size: auto;
+    }
+
+    .w3-row-padding img {
+        margin-bottom: 12px
+    }
+    /* Set the width of the sidebar to 120px */
+    .w3-sidebar {
+        width: 120px;
+        background: #222;
+    }
+    /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+    #main {
+        margin-left: 120px
+    }
+    /* Remove margins from "page content" on small screens */
+    @media only screen and (max-width: 600px) {
+        #main {
+            margin-left: 0
+        }
+    }
+</style>
+<body class="w3-black">
+    <div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+        <!-- Icon Bar (Sidebar - hidden on small screens) -->
+        <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small">
+            <!-- Avatar image in top left corner -->
+            <img src="https://i.imgur.com/QYtZslx.png" style="width:100%" class="w3-light-grey">
+            <a href="#" class="w3-bar-item w3-button w3-padding-large w3-purple">
+                <i class="fa fa-home w3-xxlarge"></i>
+                <p>HOME</p>
+            </a>
+            <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-purple">
+                <i class="fa fa-eye w3-xxlarge"></i>
+                <p>SCREENSHOTS</p>
+            </a>
+            <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-purple">
+                <i class="fa fa-user w3-xxlarge"></i>
+                <p>OUR TEAM</p>
+            </a>
+            <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-purple">
+                <i class="fa fa-envelope w3-xxlarge"></i>
+                <p>CONTACT</p>
+            </a>
+        </nav>
+
+        <!-- Navbar on small screens (Hidden on medium and large screens) -->
+        <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+            <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+                <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+                <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">SCREENSHOTS</a>
+                <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">OUR TEAM</a>
+                <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+            </div>
+        </div>
+
+        <!-- Page Content -->
+
+        <div class="w3-padding-large " id="main">
+            <!-- Header/Home -->
+            <header class="w3-container w3-padding-32 w3-center" id="home">
+                <h1 class="w3-jumbo" style="color:#5D1742" ;></h1>
+                <p></p>
+                <p class="w3-container "><img src="https://i.imgur.com/pRyRaz0.png" alt="boy" class="w3-image w3-black w3-padding-large w3-padding-24 w3-center w3-black w3-round" width="992" height="1108"></p>
+                <center>
+                    <a href="https://play.google.com/store/apps/details?id=com.Aldebaran.FoodRun">
+                        <img src="https://i.imgur.com/gDoTyNB.png" alt="boy" class="w3-round w3-hide-small w3-hide-medium" style="width:20%">
+                        <img src="https://i.imgur.com/gDoTyNB.png" alt="boy" class="w3-round w3-hide-small w3-hide-large" style="width:30%">
+                        <img src="https://i.imgur.com/gDoTyNB.png" alt="boy" class="w3-round w3-hide-large w3-hide-medium" style="width:45%">
+                    </a>
+                </center>
+                <br>
+                <center>
+                    <a href="https://www.facebook.com/Fantasticlabsgame/" class="fa fa-facebook-square w3-hover-opacity w3-xxxlarge w3-padding-small"></a>
+                    <a href="https://www.instagram.com/fantasticlabs/" class="fa fa-instagram w3-hover-opacity w3-xxxlarge w3-padding-small"></a>
+                </center>
+
+                <center>
+                    <p>
+                        <iframe class="w3-black w3-padding w3-padding-16 w3-center w3-black w3-round w3-hide-small w3-hide-medium" width="840" height="473" src="https://www.youtube.com/embed/Xos1OnY77AQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        <iframe class="w3-black w3-padding w3-padding-16 w3-center w3-black w3-round w3-hide-small w3-hide-large" width="560" height="315" src="https://www.youtube.com/embed/Xos1OnY77AQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        <iframe class="w3-black w3-padding w3-padding-16 w3-center w3-black w3-round w3-hide-large w3-hide-medium" width="374" height="210" src="https://www.youtube.com/embed/Xos1OnY77AQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </p>
+                </center>
+            </header>
+
+            <!-- Portfolio Section -->
+            <div class="w3-padding-64 w3-content" id="photos">
+                <h2 class="w3-text-light-grey">Screenshots</h2>
+                <hr style="width:200px" class="w3-opacity">
+
+                <!-- Grid for photos -->
+                <div class="w3-row-padding" style="margin:0 -16px">
+                    <div class="w3-half">
+                        <img src="https://i.imgur.com/AZCUhG4.png" style="width:100%">
+                        <img src="https://i.imgur.com/ZlhGf5i.png" style="width:100%">
+                    </div>
+
+                    <div class="w3-half">
+                        <img src="https://i.imgur.com/53ekieU.png" style="width:100%">
+                        <img src="https://i.imgur.com/PhOUpI4.png" style="width:100%">
+                    </div>
+                    <!-- End photo grid -->
+                </div>
+                <!-- End Portfolio Section -->
+            </div>
+
+            <!-- About Section -->
+            <div class="w3-content w3-justify w3-text-grey w3-container w3-black w3-round" id="about">
+                <h2 class="w3-text-light-grey">Our team</h2>
+                <hr style="width:200px" class="w3-opacity">
+
+                <!-- Our team -->
+
+                <img src="https://i.imgur.com/c7xvv2w.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+                <p><br><span class="w3-large w3-margin-right">Eduardo Guimarães</span> </p>
+                <br><br>
+                <img src="https://i.imgur.com/sLqW3bJ.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+                <p><br><span class="w3-large w3-margin-right">Graciela Hypolito</span></p>
+                <br><br>
+
+                <!-- End About Section -->
+            </div>
+
+            <br><br>
+
+            <!-- Contact Section -->
+            <div class="w3-content w3-text-grey w3-container w3-padding-large w3-padding-24 w3-black w3-round w3-margin-top" id="contact">
+                <h2 class="w3-text-light-grey">Contact us</h2>
+                <hr style="width:200px" class="w3-opacity">
+
+                <div class="w3-section">
+                    <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i>Palaiseau , FR</p>
+                    <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: fantasticlabs@hotmail.com</p>
+                </div>
+                <!-- End Contact Section -->
+            </div>
+
+            <!-- Footer -->
+            <footer class="w3-content w3-padding-64 w3-xlarge">
+                <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+                <!-- End footer -->
+            </footer>
+
+            <!-- END PAGE CONTENT -->
+        </div>
+</body>
+</html>
