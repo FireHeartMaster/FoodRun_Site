@@ -9,3 +9,6 @@ Even if I'm not publicly sharing the files for the game, here you have the simpl
 I invite you to visit the site in the following adress and check it out:
 
 http://www.foodrungame.com/
+
+<img src="https://github.com/FireHeartMaster/FoodRun_Site/blob/master/FoodRun_Website_Screenshot.png" width="800" title="Foodrun website screenshot">
+
